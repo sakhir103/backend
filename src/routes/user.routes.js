@@ -11,7 +11,7 @@ router.route("/register").post(
             maxCount: 1
         },
         {
-            name: "imageCover", // frontend name will be same
+            name: "coverImage", // frontend name will be same
             maxCount: 1
         }
     ]),
